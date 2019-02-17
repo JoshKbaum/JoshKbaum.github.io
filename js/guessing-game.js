@@ -97,8 +97,11 @@ function playGame() {
   restart.addEventListener('click', function() {
     game = newGame();
     document.querySelector('#guess-feedback > h2').innerHTML = null;
-    document.querySelector('#guess-list li').innerHTML = '-';
-  });
+    const listItems = document.querySelectorAll('#guess-list li');
+    listItems.forEach(function (x){
+      x.innerHTML = '-';
+    })
+ });
 
   hinter.addEventListener('click', function() {
     if (game.hintlock < 1) {
