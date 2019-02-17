@@ -1,0 +1,27 @@
+/* Write your CSS code in this file */
+h1 {
+    color: rgb(104, 202, 197);
+}
+body {
+    background-color:gray;
+}
+
+.first {
+    color: white;
+}
+
+.second {
+    color: yellow
+}
+
+.third {
+    color: orange
+}
+
+.fourth {
+    color: orangered;
+}
+
+.final {
+    color: red;
+}

@@ -1,1 +1,41 @@
-hellow World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <div id="app">
+    <h1>My Guessing Game</h1>
+    
+
+    <div id="guess-feedback" class="center">
+      <h2></h2>
+    </div>
+
+    <div>
+        <h3>Previous Guesses</h3>
+      <ul id="guess-list">
+        <li class="first">-</li>
+        <li class="second">-</li>
+        <li class="third">-</li>
+        <li class="fourth">-</li>
+        <li class="final">-</li>
+      </ul>
+    </div>
+
+    <div id="input-parent">
+      <input id="player-input" placeholder="enter a guess"></input>
+      <button id="submit">Go!</button>
+      <button id='startagain'>Restart</button>
+      <button id='needahint'>hint</button>
+    </div>
+
+    <script src='js/guessing-game.js'></script>
+
+  </div>
+
+</body>
+</html>
